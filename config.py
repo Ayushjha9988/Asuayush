@@ -16,13 +16,13 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 240))
 
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 5605826172))
+OWNER_ID = int(getenv("OWNER_ID", 6015276243))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Saykkunomusic")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/College_wali_masti")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Tere_papa_broken")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Tere_papa_broken")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -78,14 +78,14 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/0e060af1507472ae46aca.jpg"
+    "START_IMG_URL", "https://graph.org/file/5dbee846fa7af759c9228.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/adbb6129d2e4153d7e0fc.jpg"
+    "PING_IMG_URL", "https://graph.org/file/c8aa04785e176c8cd1080.jpg"
 )
 PLAYLIST_IMG_URL = "https://graph.org/file/c95a687e777b55be1c792.jpg"
-STATS_IMG_URL = "https://graph.org/file/7863d8305922cb250b19e.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/ff2af8d4d10afa1baf49e.jpg"
+STATS_IMG_URL = "https://graph.org/file/26685ba2e74b18a06caa3.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/c8aa04785e176c8cd1080.jpg"
 TELEGRAM_VIDEO_URL = "https://graph.org/file/ff2af8d4d10afa1baf49e.jpg"
 STREAM_IMG_URL = "https://graph.org/file/ff2af8d4d10afa1baf49e.jpg"
 SOUNCLOUD_IMG_URL = "https://graph.org/file/c95a687e777b55be1c792.jpg"
